@@ -3,7 +3,7 @@ libxif
 The XIF file format library.
 
 Motive
-======
+------
 I had just started working with xcb, and realised that if I was going to start
 throwing around xcb_image_t left and right when it comes to different programs,
 I would need an easy way to store the entire type without having to faff about
@@ -13,7 +13,7 @@ I simply decided that the best idea would be to create a simple file format
 which would be able to store any of the 3 xcb_image_t formats.
 
 Design
-======
+------
 XIF (v0) has a 15 byte header which is formatted as such:
 [3 byte signature "XIF"]
 [2 byte width]
@@ -33,6 +33,6 @@ on the PC it was written with. This might change in the future if I ever decide
 it to be necessary. (If anyone ever takes interest in this.)
 
 Expansion
-=========
+---------
 I don't plan on expanding this, this is unless suddenly an outburst of 100
 people start begging me for it. (I'm looking at you #xcb.)
