@@ -1,6 +1,7 @@
 libxif
 ======
 The XIF file format library.
+XIF: xcb Image Format
 
 Motive
 ------
